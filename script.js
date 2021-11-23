@@ -1,7 +1,7 @@
 
 var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
 
-var helloSpeaker,goodByeSpeaker;
+var helloSpeaker,byeSpeaker;
 
 for (name in names) {
   var currentName=(names[name]);
