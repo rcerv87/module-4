@@ -1,3 +1,18 @@
+
+var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
+
+
+for (name in names) {
+  var currentName=(names[name]);
+  var firstLetter=currentName.charAt(0);
+  if(firstLetter.toUpperCase()=='J'){
+    console.log("Good Bye "+currentName);
+  }
+  else{
+    console.log("hello "+currentName);
+  }
+}
+
 // *******************************
 // START HERE IF YOU WANT A MORE CHALLENGING STARTING POINT FOR THIS ASSIGNMENT
 // *******************************
@@ -33,20 +48,7 @@ WARNING!!! WARNING!!!
 // Wrap the entire contents of script.js inside of an IIFE
 // See Lecture 52, part 2
 // (Note, Step 2 will be done in the SpeakHello.js file.)
-
-var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
-
-
-for (name in names) {
-  var currentName=(names[name]);
-  var firstLetter=currentName.charAt(0);
-  if(firstLetter.toUpperCase()=='J'){
-    console.log("Good Bye "+currentName);
-  }
-  else{
-    console.log("hello "+currentName);
-  }
-}// STEP 10:
+// STEP 10:
 // Loop over the names array and say either 'Hello' or "Good Bye"
 // using either the helloSpeaker's or byeSpeaker's 'speak' method.
 // See Lecture 50, part 1
